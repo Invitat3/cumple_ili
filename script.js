@@ -1,5 +1,5 @@
 // Temporizador
-const eventDate = new Date("September 18, 2025 16:00:00").getTime();
+const eventDate = new Date("September 21, 2025 14:00:00").getTime();
 const countdown = setInterval(() => {
     const now = new Date().getTime();
     const distance = eventDate - now;
